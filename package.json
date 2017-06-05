@@ -1,0 +1,28 @@
+{
+  "name": "my-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaermemeda/mySvg.git"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "fanzk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaermemeda/mySvg/issues"
+  },
+  "homepage": "https://github.com/kaermemeda/mySvg#readme",
+  "dependencies": {
+    "svg.draggable.js": "^2.2.1",
+    "svg.draw.js": "^2.0.1",
+    "svg.js": "^2.6.2",
+    "svg.path.js": "^0.6.2"
+  }
+}

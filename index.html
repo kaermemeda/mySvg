@@ -5,14 +5,14 @@
     <title>SVG.js</title>
     <script type="text/javascript" src="svg.js"></script>
     <script type="text/javascript" src="svg.draggable.js"></script>
-    <script type="text/javascript" src="svg.draggable.js"></script>
+    <script type="text/javascript" src="svg.draw.js"></script>
     <script type="text/javascript">
         window.onload = function () {
             var draw = SVG('drawing').size(500, 500);
             var path = draw.path('M10 80 Q 40 5, 95 50 T 180 80');
             path.fill('none').move(20, 20);
             path.stroke({ color: '#f06', width: 2, linecap: 'round', linejoin: 'round' })
-            path.draggable()
+            path.draggable();
         }
     </script>
 </head>
