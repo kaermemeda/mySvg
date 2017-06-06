@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/kaermemeda/mySvg#readme",
   "dependencies": {
+    "d3": "^4.9.1",
+    "d3-sankey": "^0.6.0",
     "sequelize": "^3.30.4",
     "sqlite3": "^3.1.8",
     "svg.draggable.js": "^2.2.1",
